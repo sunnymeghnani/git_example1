@@ -59,11 +59,15 @@ function filterResults(e)
     let text = e.target.value.toLowerCase();
    
     let items = itemlists.getElementsByTagName('li');
+
+   
     
     Array.from(items).forEach(function(item)
     {
         let itemName = item.firstChild.textContent;
-        if(itemName.toLowerCase().indexOf(text) != -1)
+        let itemName2 = item.childNodes[1].textContent;
+        // console.log(itemName2);
+        if(itemName.toLowerCase().indexOf(text) != -1 || itemName2.toLowerCase().indexOf(text) != -1 )
         {
             item.style.display = 'block';
         }
