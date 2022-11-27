@@ -43,3 +43,64 @@
 // {
 //     odditems[i].style.backgroundColor='green';
 // }
+
+
+// dom modification
+// let items= document.querySelector('#items');
+// parent
+
+// console.log(items.parentNode);
+// items.parentElement.style.backgroundColor='lightgrey';
+// console.log(items.parentElement);
+
+// last element child
+// console.log(items.lastElementChild.style.color='green');
+
+//last child
+// console.log(items.lastChild);
+
+//first child
+// console.log(items.firstChild);
+
+//first element child 
+// console.log(items.firstElementChild);
+// items.firstElementChild.style.color='red';
+
+//next sibling
+// console.log(items.nextSibling);
+
+// next element sibling
+// console.log(items.nextElementSibling);
+
+// previous sibling
+// console.log(items.previousSibling);
+
+// previous element sibling
+// console.log(items.previousElementSibling);
+// items.previousElementSibling.style.fontWeight='bold';
+
+// creating,appending,create text node
+//creating element
+// let newDiv = document.createElement('div');
+//creating classname
+// newDiv.className='hello';
+//creating id
+// newDiv.id='hello1';
+//setting attribute to div
+// newDiv.setAttribute('title','hello world');
+//creating node
+// let newtext = document.createTextNode('HEllo');
+//appending to elemnet
+// newDiv.appendChild(newtext);
+
+
+// add HEllo word before Item Lister
+// let containers = document.querySelector('header .container');
+// let h1s = document.querySelector('header h1');
+// containers.insertBefore(newDiv,h1s);
+
+
+// add HEllo word before Item 1
+// let selectors = document.querySelector('#main .list-group');
+// let lis = document.querySelector('#main li')
+// selectors.insertBefore(newDiv,lis);
