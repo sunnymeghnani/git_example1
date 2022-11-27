@@ -22,7 +22,24 @@
 // {
 //     console.log(items[i].style.fontWeight='bold');
 // }
-let lis = document.getElementsByClassName('list-items');
-console.log(lis[0].style.backgroundColor='lightblue');
-let lis_tag = document.getElementsByTagName('li');
-console.log(lis_tag[4].style.color='darkgreen');
+// let lis = document.getElementsByClassName('list-items');
+// console.log(lis[0].style.backgroundColor='lightblue');
+// let lis_tag = document.getElementsByTagName('li');
+// console.log(lis_tag[4].style.color='darkgreen');
+
+// queryselector and queryselectorall (please remove the comments for each execution of the task as mentioned)
+
+// queryselector
+// let seconditem = document.querySelector('.list-group-item:nth-child(2)');
+// seconditem.style.backgroundColor='green';
+// let thirditem = document.querySelector('.list-group-item:nth-child(3)');
+// thirditem.style.color='transparent';
+
+// queryselectorall
+// var seconditems = document.querySelectorAll('.list-group-item');
+// seconditems[1].style.color='green';
+// var odditems = document.querySelectorAll('.list-group-item:nth-child(odd)');
+// for(let i = 0;i<odditems.length;i++)
+// {
+//     odditems[i].style.backgroundColor='green';
+// }
