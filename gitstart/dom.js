@@ -15,10 +15,14 @@
 // console.log(addTitle[0].style.fontWeight='bold');
 // console.log(addTitle[0].style.color='green');
 
-let items= document.getElementsByClassName('list-group-item');
-console.log(items[2].style.backgroundColor='green');
+// let items= document.getElementsByClassName('list-group-item');
+// console.log(items[2].style.backgroundColor='green');
 
-for(var i =0 ;i< items.length;i++)
-{
-    console.log(items[i].style.fontWeight='bold');
-}
+// for(var i =0 ;i< items.length;i++)
+// {
+//     console.log(items[i].style.fontWeight='bold');
+// }
+let lis = document.getElementsByClassName('list-items');
+console.log(lis[0].style.backgroundColor='lightblue');
+let lis_tag = document.getElementsByTagName('li');
+console.log(lis_tag[4].style.color='darkgreen');
