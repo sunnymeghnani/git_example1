@@ -13,12 +13,14 @@ function addItem(e)
     e.preventDefault();
 
     let newitem = document.getElementById('item').value; 
+    let newitem2 = document.getElementById('item2').value;
 
     let li = document.createElement('li');
 
     li.className='list-group-item'; 
     
     li.appendChild(document.createTextNode(newitem));
+    li.appendChild(document.createTextNode(newitem2));
 
     itemlists.appendChild(li);
 
